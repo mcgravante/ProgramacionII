@@ -1,0 +1,7 @@
+D:\gravante\Guia1EjerciciosGravante\ClassEjercicio_06\bin\Debug\ClassEjercicio_06.exe.config
+D:\gravante\Guia1EjerciciosGravante\ClassEjercicio_06\bin\Debug\ClassEjercicio_06.exe
+D:\gravante\Guia1EjerciciosGravante\ClassEjercicio_06\bin\Debug\ClassEjercicio_06.pdb
+D:\gravante\Guia1EjerciciosGravante\ClassEjercicio_06\obj\Debug\ClassEjercicio_06.csproj.CoreCompileInputs.cache
+D:\gravante\Guia1EjerciciosGravante\ClassEjercicio_06\obj\Debug\ClassEjercicio_06.exe
+D:\gravante\Guia1EjerciciosGravante\ClassEjercicio_06\obj\Debug\ClassEjercicio_06.pdb
+D:\gravante\Guia1EjerciciosGravante\ClassEjercicio_06\obj\Debug\ClassEjercicio_06.csprojAssemblyReference.cache

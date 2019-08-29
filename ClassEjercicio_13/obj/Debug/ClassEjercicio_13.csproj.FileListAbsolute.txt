@@ -1,0 +1,7 @@
+C:\Users\alumno\Desktop\Guia1EjerciciosGravante\ClassEjercicio_13\bin\Debug\ClassEjercicio_13.exe.config
+C:\Users\alumno\Desktop\Guia1EjerciciosGravante\ClassEjercicio_13\bin\Debug\ClassEjercicio_13.exe
+C:\Users\alumno\Desktop\Guia1EjerciciosGravante\ClassEjercicio_13\bin\Debug\ClassEjercicio_13.pdb
+C:\Users\alumno\Desktop\Guia1EjerciciosGravante\ClassEjercicio_13\obj\Debug\ClassEjercicio_13.csprojAssemblyReference.cache
+C:\Users\alumno\Desktop\Guia1EjerciciosGravante\ClassEjercicio_13\obj\Debug\ClassEjercicio_13.csproj.CoreCompileInputs.cache
+C:\Users\alumno\Desktop\Guia1EjerciciosGravante\ClassEjercicio_13\obj\Debug\ClassEjercicio_13.exe
+C:\Users\alumno\Desktop\Guia1EjerciciosGravante\ClassEjercicio_13\obj\Debug\ClassEjercicio_13.pdb

@@ -1,0 +1,14 @@
+D:\gravante\Guia1EjerciciosGravante\ClassEjercicio_07\bin\Debug\ClassEjercicio_07.exe.config
+D:\gravante\Guia1EjerciciosGravante\ClassEjercicio_07\bin\Debug\ClassEjercicio_07.exe
+D:\gravante\Guia1EjerciciosGravante\ClassEjercicio_07\bin\Debug\ClassEjercicio_07.pdb
+D:\gravante\Guia1EjerciciosGravante\ClassEjercicio_07\obj\Debug\ClassEjercicio_07.csprojAssemblyReference.cache
+D:\gravante\Guia1EjerciciosGravante\ClassEjercicio_07\obj\Debug\ClassEjercicio_07.csproj.CoreCompileInputs.cache
+D:\gravante\Guia1EjerciciosGravante\ClassEjercicio_07\obj\Debug\ClassEjercicio_07.exe
+D:\gravante\Guia1EjerciciosGravante\ClassEjercicio_07\obj\Debug\ClassEjercicio_07.pdb
+C:\Users\alumno\Desktop\Guia1EjerciciosGravante\ClassEjercicio_07\bin\Debug\ClassEjercicio_07.exe.config
+C:\Users\alumno\Desktop\Guia1EjerciciosGravante\ClassEjercicio_07\bin\Debug\ClassEjercicio_07.exe
+C:\Users\alumno\Desktop\Guia1EjerciciosGravante\ClassEjercicio_07\bin\Debug\ClassEjercicio_07.pdb
+C:\Users\alumno\Desktop\Guia1EjerciciosGravante\ClassEjercicio_07\obj\Debug\ClassEjercicio_07.csprojAssemblyReference.cache
+C:\Users\alumno\Desktop\Guia1EjerciciosGravante\ClassEjercicio_07\obj\Debug\ClassEjercicio_07.csproj.CoreCompileInputs.cache
+C:\Users\alumno\Desktop\Guia1EjerciciosGravante\ClassEjercicio_07\obj\Debug\ClassEjercicio_07.exe
+C:\Users\alumno\Desktop\Guia1EjerciciosGravante\ClassEjercicio_07\obj\Debug\ClassEjercicio_07.pdb
