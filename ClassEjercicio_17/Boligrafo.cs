@@ -30,8 +30,27 @@ namespace ClassEjercicio_17
 
     public bool Pintar(short gasto, out string dibujo)
     {
-      dibujo = "gaga";
-      return true;
+      bool ret = false;
+      dibujo = "";
+      if (this.tinta - gasto >= 0)
+      {
+        SetTinta((short)-gasto);
+        for (int i = 0; i < gasto; i++)
+        {
+          dibujo += "*";
+        }
+        ret = true;
+      }
+      else
+      {
+        for (int i = this.tinta; i > 0; i--)
+        {
+          dibujo += "*";
+        }
+        SetTinta((short)-this.tinta);
+        ret = false;
+      }
+      return ret;
     }
 
     public void Recargar()
@@ -42,11 +61,11 @@ namespace ClassEjercicio_17
     private void SetTinta(short tinta)
     {
       int cantidadTinta = this.tinta + tinta;
-      if (cantidadTinta>cantidadTintaMaxima)
+      if (cantidadTinta >= cantidadTintaMaxima)
       {
-        cantidadTinta = cantidadTintaMaxima;
+        this.tinta = cantidadTintaMaxima;
       }
-     else  if (cantidadTinta >= 0)
+      else if (cantidadTinta >= 0 && cantidadTinta < cantidadTintaMaxima)
       {
         this.tinta = (short)cantidadTinta;
       }

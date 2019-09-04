@@ -27,7 +27,7 @@ namespace ClassEjercicio_16
       if (this.nota1 >= 4 && this.nota2 >= 4)
       {
         Random notaFinal = new Random();
-        this.notaFinal = notaFinal.Next(4,10);
+        this.notaFinal = notaFinal.Next(4, 10);
       }
     }
 
@@ -38,7 +38,7 @@ namespace ClassEjercicio_16
         this.apellido, this.nombre, this.nota1, this.nota2);
       String notaFinal;
       CalcularFinal();
-      if (this.notaFinal >= 4)
+      if (this.notaFinal != -1)
       {
         notaFinal = string.Format("{0}", this.notaFinal);
       }
