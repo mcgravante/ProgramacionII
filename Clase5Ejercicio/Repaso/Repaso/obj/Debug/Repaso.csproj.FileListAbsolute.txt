@@ -1,0 +1,2 @@
+D:\gravante\Clase5Ejercicio\Repaso\Repaso\obj\Debug\Repaso.csprojAssemblyReference.cache
+D:\gravante\Clase5Ejercicio\Repaso\Repaso\obj\Debug\Repaso.csproj.CoreCompileInputs.cache
