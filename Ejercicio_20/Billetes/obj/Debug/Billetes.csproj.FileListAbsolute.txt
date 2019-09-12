@@ -1,0 +1,9 @@
+D:\gravante\Ejercicio_20\Billetes\bin\Debug\Billetes.dll.config
+D:\gravante\Ejercicio_20\Billetes\bin\Debug\Billetes.dll
+D:\gravante\Ejercicio_20\Billetes\bin\Debug\Billetes.pdb
+D:\gravante\Ejercicio_20\Billetes\bin\Debug\Billetes.dll.CodeAnalysisLog.xml
+D:\gravante\Ejercicio_20\Billetes\bin\Debug\Billetes.dll.lastcodeanalysissucceeded
+D:\gravante\Ejercicio_20\Billetes\obj\Debug\Billetes.csprojAssemblyReference.cache
+D:\gravante\Ejercicio_20\Billetes\obj\Debug\Billetes.csproj.CoreCompileInputs.cache
+D:\gravante\Ejercicio_20\Billetes\obj\Debug\Billetes.dll
+D:\gravante\Ejercicio_20\Billetes\obj\Debug\Billetes.pdb
