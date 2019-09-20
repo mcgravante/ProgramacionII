@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A3AEF640-3673-4D75-B373-4EAAD0121EA7}</ProjectGuid>
+    <ProjectGuid>{DB543F03-925E-444D-A3E7-45C705005D59}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>CentralitaHerencia</RootNamespace>
-    <AssemblyName>CentralitaHerencia</AssemblyName>
+    <RootNamespace>ConsoleApp1</RootNamespace>
+    <AssemblyName>ConsoleApp1</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,12 +42,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Centralita.cs" />
-    <Compile Include="Llamada.cs" />
-    <Compile Include="Local.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Provincial.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

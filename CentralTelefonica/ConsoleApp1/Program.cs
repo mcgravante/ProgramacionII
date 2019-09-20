@@ -1,12 +1,12 @@
-﻿using System;
+﻿sing System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CentralitaHerencia
+namespace ConsoleApp1
 {
-    public class Program
+    class Program
     {
         static void Main(string[] args)
         {

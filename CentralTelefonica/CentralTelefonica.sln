@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27703.2047
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CentralitaHerencia", "CentralitaHerencia\CentralitaHerencia.csproj", "{A3AEF640-3673-4D75-B373-4EAAD0121EA7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{B1CF02C3-2898-4F6E-AD7D-4D01480F0E97}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{A3AEF640-3673-4D75-B373-4EAAD0121EA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A3AEF640-3673-4D75-B373-4EAAD0121EA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A3AEF640-3673-4D75-B373-4EAAD0121EA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1CF02C3-2898-4F6E-AD7D-4D01480F0E97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1CF02C3-2898-4F6E-AD7D-4D01480F0E97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1CF02C3-2898-4F6E-AD7D-4D01480F0E97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1CF02C3-2898-4F6E-AD7D-4D01480F0E97}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

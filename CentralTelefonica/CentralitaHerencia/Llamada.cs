@@ -6,15 +6,33 @@ using System.Threading.Tasks;
 
 namespace CentralitaHerencia
 {
-    class Llamada
+    public class Llamada
     {
         protected float duracion;
         protected string nroDestino;
         protected string nroOrigen;
 
-        public float Duracion { get; }
-        public string NroDestino { get; }
-        public string NroOrigen { get; }
+        public float Duracion
+        {
+            get
+            {
+                return this.duracion;
+            }
+        }
+        public string NroDestino
+        {
+            get
+            {
+                return this.nroDestino;
+            }
+        }
+        public string NroOrigen
+        {
+            get
+            {
+                return this.nroOrigen;
+            }
+        }
 
         public Llamada(float duracion, string nroDestino, string nroOrigen)
         {
@@ -25,12 +43,24 @@ namespace CentralitaHerencia
 
         public string Mostrar()
         {
-            return "completar";
+            StringBuilder llamada = new StringBuilder();
+            llamada.Append("\nDuracion de la llamada: ");
+            llamada.Append(this.Duracion + "\n");
+            llamada.Append("\nNro de Destino: ");
+            llamada.Append(this.NroDestino + "\n");
+            llamada.Append("\nNro de Origen: ");
+            llamada.Append(this.NroOrigen + "\n");
+            return llamada.ToString();
         }
 
-        public int OrdenarPorDuracion(Llamada llamada1, Llamada llamada2)
+        public static int OrdenarPorDuracion(Llamada llamada1, Llamada llamada2)
         {
-            return 0;
+            int ret = 0;
+            if (llamada1.Duracion > llamada2.Duracion)
+                ret = 1;
+            if (llamada1.Duracion < llamada2.Duracion)
+                ret = -1;
+            return ret;
         }
 
         public enum TipoLlamada

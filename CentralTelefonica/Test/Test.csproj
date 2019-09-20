@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A3AEF640-3673-4D75-B373-4EAAD0121EA7}</ProjectGuid>
+    <ProjectGuid>{B1CF02C3-2898-4F6E-AD7D-4D01480F0E97}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>CentralitaHerencia</RootNamespace>
-    <AssemblyName>CentralitaHerencia</AssemblyName>
+    <RootNamespace>Test</RootNamespace>
+    <AssemblyName>Test</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,15 +42,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Centralita.cs" />
-    <Compile Include="Llamada.cs" />
-    <Compile Include="Local.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="Test.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Provincial.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CentralitaHerencia\CentralitaHerencia.csproj">
+      <Project>{a3aef640-3673-4d75-b373-4eaad0121ea7}</Project>
+      <Name>CentralitaHerencia</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
