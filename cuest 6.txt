@@ -1,0 +1,75 @@
+1- si
+
+2- Form class
+
+3- crear una clase completa y luego agrupar métodos y propiedades en dos o más archivos
+
+4- si
+
+5- when you use the ShowDialog the form is shown in a modal window. 
+A modal form generally is used to show a dialog that must be closed until it takes back to the caller...
+for instance, the messagebox.show shows the message as a dialog, so the user should close it before the code continues to the next line. 
+In the other hand, the show method just shows the form and continues executing the next line of the caller, 
+when you open a form from a menu you usually shows it as no modal
+
+6- A Multiple Document Interface (MDI) programs can display multiple child windows inside them. 
+This is in contrast to single document interface (SDI) applications, which can manipulate only one document at a time. 
+Visual Studio Environment is an example of Multiple Document Interface (MDI) and notepad is an example of an SDI application. 
+MDI applications often have a Window menu item with submenus for switching between windows or documents.
+IsMdiContainer = true
+MdiParent = ParentClass
+
+7- 
+New: asigna memoria
+constructor:inicializa
+Load: This event occurs before a form is displayed for the first time.
+Paint: This event occurs when the control is redrawn.
+Activated: se activa (foco)
+Closing: This event occurs when the form is closing.
+Closed: This event occurs when the form is being closed.
+Disposed: libera memoria
+
+8- A jagged array is an array whose elements are arrays. The elements of a jagged array can be of different dimensions and sizes. 
+A jagged array is sometimes called an "array of arrays."
+The elements of Jagged Array are reference types and initialized to null by default. 
+
+9-  un Array es un grupo de variables llamadas elementos o componentes que contienen variables las cuales son de un mismo tipo.
+
+10- en este modo el primer elemento del vector será la componente cero ('0') del mismo, es decir, tendrá el índice '0'. 
+En consecuencia, si el vector tiene 'n' componentes la última tendrá como índice el valor 'n-1'. 
+El lenguaje C es un ejemplo típico que utiliza este modo de indexación.
+
+11- Exposes an enumerator, which supports a simple iteration over a non-generic collection.
+la importancia de la interfaz IEnumerable<T> estriba en que cualquier tipo de datos que la implemente puede servir directamente 
+como origen para expresiones de consulta. En particular, los arrays y las colecciones genéricas .NET 2.0 la implementan.
+
+12- Arrays can have more than one dimension. For example, the following declaration creates a two-dimensional array of four rows and two columns.
+int[, ,] array1 = new int[4, 2, 3];
+
+13- 38
+
+14- UpperCamel case defines a Class. So String is a class that has methods in C#. Like String.IsNullOrEmpty().
+The lower case string and then all the int,long,byte,etc are special keywords, that define a compiling type.
+
+string is an alias in C# for System.String.
+So technically, there is no difference. It's like int vs. System.Int32.
+
+As far as guidelines, it's generally recommended to use string any time you're referring to an object.
+
+e.g.
+
+string place = "world";
+Likewise, I think it's generally recommended to use String if you need to refer specifically to the class.
+
+e.g.
+
+string greet = String.Format("Hello {0}!", place);
+
+
+15- Array types are reference types derived from the abstract base type Array. 
+Since this type implements IEnumerable and IEnumerable<T>, you can use foreach iteration on all arrays in C#.
+
+16- Un objeto inmutable (immutable type), es aquel cuyo estado, valores, sólo pueden ser establecidas en la inicialización del mismo.
+Una vez que un objeto es creado, no puede cambiar nada del mismo.
+Para cambiar su valor tendremos que destruir el objeto existente y crear un objeto nuevo, 
+por lo que el objeto que teníamos antes (inmutable), dejaría de existir para crear uno nuevo objeto (inmutable).
