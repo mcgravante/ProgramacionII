@@ -86,28 +86,27 @@ namespace CentralitaHerencia
 
         private string Mostrar()
         {
-            StringBuilder centralita = new StringBuilder();
-            centralita.Append("\nRazon social: ");
-            centralita.Append(this.razonSocial + "\n");
-            centralita.Append("\nGanancia Total: ");
-            centralita.Append(this.GananciasPorTotal + "\n");
-            centralita.Append("\nGanancia Local: ");
-            centralita.Append(this.GananciasPorLocal + "\n");
-            centralita.Append("\nGanancia Provincial: ");
-            centralita.Append(this.GananciasPorProvincial + "\n");
-            this.OrdenarLlamadas();
+            StringBuilder centralitaMostrar = new StringBuilder();
+            centralitaMostrar.Append("\nRazon social: ");
+            centralitaMostrar.Append(this.razonSocial + "\n");
+            centralitaMostrar.Append("\nGanancia Total: ");
+            centralitaMostrar.Append(this.GananciasPorTotal + "\n");
+            centralitaMostrar.Append("\nGanancia Local: ");
+            centralitaMostrar.Append(this.GananciasPorLocal + "\n");
+            centralitaMostrar.Append("\nGanancia Provincial: ");
+            centralitaMostrar.Append(this.GananciasPorProvincial + "\n");
             foreach (Llamada llamada in this.Llamadas)
             {
                 if (llamada is Local)
                 {
-                    centralita.Append(((Local)llamada).Mostrar());
+                    centralitaMostrar.Append(((Local)llamada).ToString());
                 }
                 else
                 {
-                    centralita.Append(((Provincial)llamada).Mostrar());
+                    centralitaMostrar.Append(((Provincial)llamada).ToString());
                 }
             }
-            return centralita.ToString();
+            return centralitaMostrar.ToString();
         }
 
         public void OrdenarLlamadas()
@@ -117,11 +116,16 @@ namespace CentralitaHerencia
 
         public static bool operator ==(Centralita c, Llamada llamada)
         {
-            if (c.Llamadas.Contains(llamada))
+            bool contieneLlamada = false;
+            foreach (Llamada l in c.Llamadas)
             {
-                return true;
+                if (llamada == l)
+                {
+                    contieneLlamada = true;
+                    break;
+                }
             }
-            return false;
+            return contieneLlamada;
         }
 
         public static bool operator !=(Centralita c, Llamada llamada)
@@ -135,7 +139,10 @@ namespace CentralitaHerencia
 
         public static Centralita operator +(Centralita c, Llamada nuevaLlamada)
         {
-            c.AgregarLlamada(nuevaLlamada);
+            if (c != nuevaLlamada)
+            {
+                c.AgregarLlamada(nuevaLlamada);
+            }
             return c;
         }
 

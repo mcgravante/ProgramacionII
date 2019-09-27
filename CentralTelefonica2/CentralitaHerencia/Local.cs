@@ -25,6 +25,7 @@ namespace CentralitaHerencia
             return costo;
         }
 
+        override
         public bool Equals(object obj)
         {
             if (obj is Local)
@@ -52,6 +53,7 @@ namespace CentralitaHerencia
             return llamadaLocal.ToString();
         }
 
+        override
         public string ToString()
         {
             return this.Mostrar();
