@@ -91,6 +91,5 @@ namespace ComiqueriaLogic
         {
             this.ventas.Sort(Venta.OrdenarPorFecha);
         }
-
     }
 }
