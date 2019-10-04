@@ -34,7 +34,12 @@ namespace ComiqueriaLogic
 
         public Dictionary<Guid, string> ListarProductos()
         {
-            return new Dictionary<Guid, string>();
+            Dictionary<Guid, string> diccionario = new Dictionary<Guid, string>();
+            foreach (Producto p in this.productos)
+            {
+                diccionario.Add((Guid)p, p.Descripcion);
+            }
+            return diccionario;
         }
 
         public string ListarVentas()

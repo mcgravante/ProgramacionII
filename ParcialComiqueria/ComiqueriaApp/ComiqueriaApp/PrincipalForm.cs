@@ -11,7 +11,7 @@ namespace ComiqueriaApp
         private Dictionary<Guid, string> listaProductos;
         //Utilice este campo para acceder al producto seleccionado actualmente. 
         private Producto productoSeleccionado;
-        
+
         /// <summary>
         /// Constructor. No modificar el código. 
         /// </summary>
@@ -19,7 +19,7 @@ namespace ComiqueriaApp
         public PrincipalForm()
         {
             InitializeComponent();
-            
+
             this.comiqueria = new Comiqueria();
             //Productos
             Producto producto1 = new Comic("AMAZING SPIDER-MAN 01: SUERTE DE ESTAR VIVO", 5, 560.00, "Dan Slott", Comic.TipoComic.Occidental);
@@ -67,7 +67,7 @@ namespace ComiqueriaApp
         /// <param name="e"></param>
         private void ListBoxProductos_SelectedIndexChanged(object sender, EventArgs e)
         {
-            Guid codigoProducto = ((KeyValuePair<Guid,string>)this.listBoxProductos.SelectedItem).Key;
+            Guid codigoProducto = ((KeyValuePair<Guid, string>)this.listBoxProductos.SelectedItem).Key;
             this.productoSeleccionado = this.comiqueria[codigoProducto];
             this.richTextBoxDetalle.Text = this.productoSeleccionado.ToString();
         }
@@ -82,17 +82,20 @@ namespace ComiqueriaApp
             //Si el constructor tiene parámetros de entrada proporcionarle los argumentos que correspondan.
             //El campo "productoSeleccionado" contiene el producto actualmente seleccionado en el listBox de productos. 
             //El campo "comiqueria" contiene la instancia de la comiqueria que se está utilizando. 
-            Form ventasForm = new VentasForm(); 
-            DialogResult result = ; //Agregar código para abrir ventasForm de forma MODAL
+            Form ventasForm = new VentasForm(comiqueria, productoSeleccionado);
+            ventasForm.ShowDialog();
+            DialogResult result = ventasForm.DialogResult; //Agregar código para abrir ventasForm de forma MODAL
             if (result == DialogResult.OK)
             {
                 this.richTextBoxVentas.Text = this.comiqueria.ListarVentas();
+                this.richTextBoxDetalle.Text = this.productoSeleccionado.ToString();
+
             }
         }
 
         private void btnVender_Click(object sender, EventArgs e)
         {
-
+            OnVenderClick(sender,e);
         }
     }
 }
